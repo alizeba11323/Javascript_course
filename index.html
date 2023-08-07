@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="h1" onmouseleave="mouseover()">Hello World App</h1>
+    <input
+      id="inp"
+      type="text"
+      name="text"
+      value=""
+      onchange="handlechange(this.value)"
+    />
+    <select onchange="handlechange()">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select>
+    <button onclick="clickme()">CLick Me</button>
+    <!-- <script>
+      window.addEventListener("load", function () {
+        alert("you have loaded");
+      });
+      function clickme() {
+        const h1 = document.getElementById("h1");
+        h1.innerText = "Updated Text";
+        console.log("clicked");
+      }
+      function mouseover() {
+        console.log("mouse over");
+      }
+      function onLoad() {
+        console.log("load");
+      }
+
+      function handlechange(value) {
+        console.log("changed", value);
+      }
+      const inp = document.getElementById("inp");
+      inp.addEventListener("change", function (e) {
+        console.log(e);
+        console.log(e.target.value);
+      });
+    </script> -->
+    <script src="./index.js"></script>
+  </body>
+</html>
+
+//function parameter and argument function return //object access properties
+//function . dot notation [] events onLoad onclick mouseleave mouseenter
+mouseover onchange
