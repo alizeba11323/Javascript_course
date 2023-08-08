@@ -268,3 +268,77 @@
 // console.log(Number(false)); //0
 // console.log(Number.parseInt("100"));
 // console.log(Number("10.99"));
+
+// const names = ["name1", "name2", "name3"];
+// names[3] = "name4";
+// console.log(names[0]); //name1
+// console.log(names[1]); //name2
+// console.log(names[2]); //
+// console.log(names.length);
+// console.log(names);
+// const posts = [];
+// posts[0] = "first post";
+// posts[1] = "second post";
+// posts[2] = "third post";
+// console.log(posts);
+
+// const names = new Array(4);["","","", ""]
+// ["", "", "", "", "name1"];
+// names[0] = "nam2"; //intialize []
+// names.push("name1");
+// console.log(names);
+// const name = [1, 2, 3]; //refrence address
+// const name1 = [1, 2, 3];
+// console.log(name == name1);
+// console.log(typeof name);
+// console.log(typeof name1);
+// const name11 = {
+//   name: "aki",
+// };
+// console.log(name instanceof Array);
+// console.log(Array.isArray(name11));
+// console.log(Number.parseInt(name1.toString().split(",")[1]));
+const products = ["prod1", "prod2", "prod3"];
+
+// console.log(products.length);
+// console.log(products.toString());
+// console.log(products.join("-"));
+// products[products.length] = "prod4";
+// const deletedIndex = products.push("prod4");
+// console.log(deletedIndex); //length return of array
+// console.log(products);
+// const popIndex = products.pop();
+// console.log(popIndex);
+// console.log(products);
+const prodIdnex = products.unshift("newProduct");
+console.log(prodIdnex);
+console.log(products);
+const prod = products.shift();
+console.log(prod);
+console.log(products);
+
+delete products[1];
+console.log(products);
+
+const arr1 = [1, 2, 3, 4];
+console.log(arr1.concat(5, 6, 7));
+[1, 2, 3, 4, 5, 6];
+const arr2 = [
+  [1, 2],
+  [3, 4],
+  [4, 5],
+];
+console.log(arr2.flat());
+console.log(arr1.slice(1, 3));
+// const msg = "Hello world";
+// console.log(msg.slice(5, 7));
+// const arr2 = [5, 6, 7, 8, 9];
+// const arr3 = [10, 11, 12, 13, 14];
+// console.log(arr1 + arr2 + arr3);
+// const newArr = arr1.concat(arr2, arr3);
+// console.log(newArr);
+
+// insert data perticular remove perticular index
+const idx = arr1.splice(0, 2); // removing and adding
+console.log(idx);
+console.log(arr1);
