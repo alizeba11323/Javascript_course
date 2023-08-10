@@ -298,7 +298,7 @@
 // console.log(name instanceof Array);
 // console.log(Array.isArray(name11));
 // console.log(Number.parseInt(name1.toString().split(",")[1]));
-const products = ["prod1", "prod2", "prod3"];
+// const products = ["prod1", "prod2", "prod3"];
 
 // console.log(products.length);
 // console.log(products.toString());
@@ -310,35 +310,91 @@ const products = ["prod1", "prod2", "prod3"];
 // const popIndex = products.pop();
 // console.log(popIndex);
 // console.log(products);
-const prodIdnex = products.unshift("newProduct");
-console.log(prodIdnex);
-console.log(products);
-const prod = products.shift();
-console.log(prod);
-console.log(products);
+// const prodIdnex = products.unshift("newProduct");
+// console.log(prodIdnex);
+// console.log(products);
+// const prod = products.shift();
+// console.log(prod);
+// console.log(products);
 
-delete products[1];
-console.log(products);
+// delete products[1];
+// console.log(products);
 
-const arr1 = [1, 2, 3, 4];
-console.log(arr1.concat(5, 6, 7));
-[1, 2, 3, 4, 5, 6];
-const arr2 = [
-  [1, 2],
-  [3, 4],
-  [4, 5],
-];
-console.log(arr2.flat());
-console.log(arr1.slice(1, 3));
-// const msg = "Hello world";
-// console.log(msg.slice(5, 7));
-// const arr2 = [5, 6, 7, 8, 9];
-// const arr3 = [10, 11, 12, 13, 14];
-// console.log(arr1 + arr2 + arr3);
-// const newArr = arr1.concat(arr2, arr3);
-// console.log(newArr);
+// const arr1 = [1, 2, 3, 4];
+// console.log(arr1.concat(5, 6, 7));
+// [1, 2, 3, 4, 5, 6];
+// const arr2 = [
+//   [1, 2],
+//   [3, 4],
+//   [4, 5],
+// ];
+// console.log(arr2.flat());
+// console.log(arr1.slice(1, 3));
+// // const msg = "Hello world";
+// // console.log(msg.slice(5, 7));
+// // const arr2 = [5, 6, 7, 8, 9];
+// // const arr3 = [10, 11, 12, 13, 14];
+// // console.log(arr1 + arr2 + arr3);
+// // const newArr = arr1.concat(arr2, arr3);
+// // console.log(newArr);
 
-// insert data perticular remove perticular index
-const idx = arr1.splice(0, 2); // removing and adding
-console.log(idx);
-console.log(arr1);
+// // insert data perticular remove perticular index
+// const idx = arr1.splice(0, 2); // removing and adding
+// console.log(idx);
+// console.log(arr1);
+
+const arr1 = [1, 2, 3, 4, 5]; //5  0<5 1<5 2<5 3
+//looping
+// arr1[0];
+// while
+// do-while
+// for loop  ,
+// for of
+// for in
+// 0; //1
+
+// for (let count = 0; count < arr1.length; count++) {
+//   if (arr1[count] == 3) break;
+//   console.log(arr1[count]);
+// }
+
+// console.log("Out Of Loop");
+
+// let count = arr1.length - 1;
+// // 4>=0 true
+// // 3 > =0 true
+// // -1 >=0 false
+// while (count >= 0) {
+//   console.log(arr1[count]); // 5 4 3 2 1
+//   count--; //3 //2 //1//0 -1
+// }
+
+// console.log("Out Of The Loop");
+// const arr2 = [1];
+// let count = 0;
+// do {
+//   console.log(arr2[count]);
+//   count++;
+// } while (count < arr2.length);
+
+// const hello5 = 0;
+// let count1 = 0;
+// do {
+//   console.log("Hello World ");
+//   count1++;
+// } while (count1 < hello5);
+
+//syntax
+
+// let initialization ;
+
+// while(expression){
+//   //body of the code
+// increment
+// }
+
+// let initialization
+// do {
+//  //body of the code
+//  //increment
+// }while(expression)
