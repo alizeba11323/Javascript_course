@@ -1,0 +1,14 @@
+.heading {
+  color: red;
+  text-align: center;
+  font-size: 30px;
+}
+#div {
+  cursor: pointer;
+}
+.styles {
+  padding: 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}

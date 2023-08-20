@@ -282,6 +282,50 @@
 // posts[2] = "third post";
 // console.log(posts);
 
+// const arr2 = [
+//   [1, 2], //0
+//   [3, 4, 5, 6], //1
+//   [5, 6], //2
+// ];
+// rest operator
+
+// const arr5 = [1, 2, 3, 5, 6, 7, 8];
+// const [one, two, three, ...othervalue] = arr5; //array destructure
+
+// console.log(one, two, three, othervalue);
+
+// for (let k of arr2) {
+//   const [e1, e2, e3, e4] = k;
+//   console.log(e1, e2, e3, e4);
+// }
+//rest operator
+// const person = {
+//   name: "zeba ali",
+//   age: 25,
+//   qualification: "MCA",
+// };
+// // const { name, age } = person; //object destructure
+// // console.log(name);
+// //rest operator
+// //spread operator
+// const newPerson = { ...person, gender: "Female" };
+// console.log(newPerson);
+// function add(a, b, ...rest) {
+//   console.log(a, b);
+//   console.log(rest);
+// }
+// add(1, 2, 3, 4);
+// for (let k in arr2) {
+//   console.log(k);
+// }
+
+// for (let x in arr2) {
+//   const arr3 = arr2[x];
+//   for (let y in arr3) {
+//     console.log(arr3[y]);
+//   }
+// }
+
 // const names = new Array(4);["","","", ""]
 // ["", "", "", "", "name1"];
 // names[0] = "nam2"; //intialize []
@@ -398,3 +442,214 @@ const arr1 = [1, 2, 3, 4, 5]; //5  0<5 1<5 2<5 3
 //  //body of the code
 //  //increment
 // }while(expression)
+// const arr = [1, 2, 3, 4, 5];
+// // let count = 0;
+// // while(count < arr.length) {
+// //     console.log(arr[count]);
+// //     count++;
+// // }
+
+// for (let count = 0; count < arr.length; count++) {
+//   console.log(arr[count]);
+// }
+// console.log("OUT OF THE LOOP");
+
+// const person = {
+//   name: "zeba ali",
+//   age: 25,
+//   qualification: "MCA",
+// };
+// // console.log(Object.keys(person));
+// // console.log(Object.values(person));
+// // console.log(Object.entries(person));
+// // for in loop
+
+// for (let per in person) {
+//   console.log(per);
+//   console.log(person[per]);
+// }
+
+// const arr = [1, 2, 3, 4, 5];
+
+// for (let x in arr) {
+//   console.log(x);
+//   console.log(arr[x]);
+// }
+// const arr = Object.entries(person);
+// //   arr[1][1]
+//   [[0,1],[0,1],[0,1]]
+// //[["name","zeba ali"],["age",25],["quanlification","MCA"]]
+// arr[2][0];
+// let arr = ["name", "age", "qualification"];
+// for (let key in arr) {
+//   //0/1/2
+//   const arr1 = arr[key];
+//   console.log(arr1);
+// }
+
+// conditinals
+
+//Number()
+//parseInt()
+// +number
+// const age = parseInt(prompt("enter your age")); //string
+// if (age >= 18) {
+//   console.log("You are eligible for vote");
+// } else {
+//   console.log("you are not eligible for vote");
+// }
+
+// let a = 10;
+// let b = 20;
+// if (a > b) {
+//   console.log("a is greater");
+// } else {
+//   console.log("b is greater");
+// }
+
+// let age = 40;
+// let status = false;
+
+// if (age <= 30) {
+//   if (status) {
+//     console.log("you are in");
+//   } else {
+//     console.log("you are out");
+//   }
+// } else {
+//   if (status) {
+//     console.log("40s in");
+//   } else {
+//     console.log("40s out");
+//   }
+// }
+
+// let a = 10; //a>b a>c
+// let b = 40; //b>a b>c
+// let c = 30; //c >a c>b
+// //10>20 && 10>30 f && f == f
+// // c is greater
+// // 20>10 t && 20>30 f ==false
+// if (a > b && a > c) {
+//   console.log("a is greatest");
+// } else if (b > a && b > c) {
+//   console.log(" b is greatest");
+// } else {
+//   console.log("c is greatest");
+// }
+
+//switch case
+const weekName = "mon";
+// if (weekName === "mon") {
+//   console.log("mon");
+// } else if (weekName === "tues") {
+//   console.log("tues");
+// } else if (weekName == "wed") {
+//   console.log("wed");
+// } else if (weekName == "thus") {
+//   console.log("thus");
+// } else if (weekName == "fri") {
+//   console.log("fri");
+// } else if (weekName == "sat") {
+//   console.log("sat");
+// } else if (weekName == "sun") {
+//   console.log("sun");
+// } else {
+//   console.log("not matched ");
+// }
+
+// switch (weekName) {
+//   case "sun":
+//     console.log("Sun");
+//     break;
+//   case "mon":
+//     console.log("mon");
+//     break;
+//   case "tues":
+//     console.log("tues");
+//     break;
+//   default:
+//     console.log("Not matched");
+//     break;
+// }
+//for in loop for object
+// const person1 = {
+//   name: "zeba ",
+//   age: 25,
+//   gender: "Female",
+// };
+
+// for (let x of person1) {
+//   console.log(x);
+// }
+// for (let p in person1) {
+//   console.log(person1[p]);
+// }
+// const arr = [1, 2, 3, 4, 5];
+
+// for (let x in arr) {
+//   if (x == 3) {
+//     arr[x] = 10;
+//   }
+// }
+// console.log(arr);
+
+// for (let x of arr) {
+//   if (x == 10) {
+//     console.log("10");
+//   }
+// }
+// 1. getElementById in document access tag
+// 2.innerText
+// const div = document.getElementById("div");
+// div.addEventListener("click", function () {
+//   this.classList.toggle("heading");
+// });
+// div.innerHTML = "<h2>Updated Div</h2>";
+// div.style.color = "red";
+// div.style.textAlign = "center";
+// div.setAttribute("title", "Hello WOrld App");
+// div.setAttribute("data-title", "Hi Title is here");
+// div.setAttribute("class", "heading");
+
+// div.innerHTML = "<h2>Updated Div</h2>";
+
+// const div = document.getElementsByClassName("divclass");
+// for (let x = 0; x < div.length; x++) {
+//   console.log(div[x].innerText);
+// }
+
+// const h1 = document.getElementsByTagName("h1");
+// h1[0].innerText = "Hello World Updated";
+
+// document.write("Hello");
+// console.log("Hello");
+// alert("hello");
+// prompt("ENter Your Age");
+// const header = document.createElement("h1");
+// header.className = "head";
+// header.innerText = "Hello World from document";
+// header.addEventListener("click", function () {
+//   this.className = "heading";
+// });
+// const div = document.getElementById("div");
+// div.appendChild(header);
+
+console.dir(document);
+// console.log(document.URL);
+// const body = document.all[6];
+// body.style.background = "green";
+// console.log(document.anchors);
+// console.log(document.body);
+// console.log(document.domain);
+// console.log(document.doctype);
+// console.log(document.forms);
+// document.forms.myform.username.classList.toggle("styles");
+// console.log(document.forms["myform"]["password"].value);
+// console.log(document.links);
+// console.log(document.images);
+// document.body.style.backgroundColor = "red";
+
+const mydiv = document.querySelectorAll("p:nth-child(even)");
+console.log(mydiv);
+mydiv[0].style.color = "red";
